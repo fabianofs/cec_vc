@@ -1,3 +1,186 @@
 <?php if(!class_exists('Rain\Tpl')){exit;}?>
+	<!-- Start Footer -->
+	  <footer class="site-footer">
+	    <div class="container">
+	      <div class="row"> 
+	        <!-- Start Footer Widgets -->
+	        <div class="col-md-4 col-sm-4 widget footer-widget">
+	          <h4 class="footer-widget-title">About our Church</h4>
+	          <img src="/res/site/images/Logo-CEC.png" alt="Logo">
+	          <div class="spacer-20"></div>
+	          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis consectetur adipiscing elit. Nulla convallis egestas rhoncus</p>
+	        </div>
+	        <div class="col-md-4 col-sm-4 widget footer-widget">
+	          <h4 class="footer-widget-title">Blogroll</h4>
+	          <ul>
+	            <li><a href="index.html">Church Home</a></li>
+	            <li><a href="about.html">About Us</a></li>
+	            <li><a href="events.html">All Events</a></li>
+	            <li><a href="sermons.html">Sermons Archive</a></li>
+	            <li><a href="blog-masonry.html">Our Blog</a></li>
+	          </ul>
+	        </div>
+	        <div class="col-md-4 col-sm-4 widget footer-widget">
+	          <h4 class="footer-widget-title">Our Church on twitter</h4>
+	          <ul class="twitter-widget">
+	          </ul>
+	        </div>
+	      </div>
+	    </div>
+	  </footer>
+	  <footer class="site-footer-bottom">
+	    <div class="container">
+	      <div class="row">
+	        <div class="copyrights-col-left col-md-6 col-sm-6">
+	          <p>&copy; 2014 NativeChurch. All Rights Reserved</p>
+	        </div>
+	        <div class="copyrights-col-right col-md-6 col-sm-6">
+	          <div class="social-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> <a href="http://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a> <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a> <a href="http://www.pinterest.com/" target="_blank"><i class="fa fa-youtube"></i></a> <a href="#"><i class="fa fa-rss"></i></a> </div>
+	        </div>
+	      </div>
+	    </div>
+	  </footer>
+	  <!-- End Footer --> 
+	  <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+	</div>
+	<script src="/res/site/js/jquery-2.0.0.min.js"></script> <!-- Jquery Library Call --> 
+	<script src="/res/site/plugins/prettyphoto/js/prettyphoto.js"></script> <!-- PrettyPhoto Plugin --> 
+	<script src="/res/site/js/helper-plugins.js"></script> <!-- Plugins --> 
+	<script src="/res/site/js/bootstrap.js"></script> <!-- UI --> 
+	<script src="/res/site/js/waypoints.js"></script> <!-- Waypoints --> 
+	<script src="/res/site/plugins/mediaelement/mediaelement-and-player.min.js"></script> <!-- MediaElements --> 
+	<script src="/res/site/plugins/nivoslider/jquery.nivo.slider.js"></script> <!-- NivoSlider -->
+	<script src="/res/site/js/init.js"></script> <!-- All Scripts --> 
+	<script src="/res/site/plugins/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider --> 
+	<script src="/res/site/plugins/countdown/js/jquery.countdown.min.js"></script> <!-- Jquery Timer -->
+	  
+	<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+	<script type="text/javascript" src="/res/site/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>   
+	<script type="text/javascript" src="/res/site/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(document).ready(function() {
+	    jQuery('.tp-banner').show().revolution(
+	    {
+	      dottedOverlay:"none",
+	      delay:9000,
+	      startwidth:1060,
+	      startheight:500,
+	      hideThumbs:200,
+	      
+	      thumbWidth:100,
+	      thumbHeight:50,
+	      thumbAmount:5,
+	      
+	      navigationType:"none",
+	      navigationArrows:"solo",
+	      navigationStyle:"preview2",
+	      
+	      touchenabled:"on",
+	      onHoverStop:"on",
+	      
+	      swipe_velocity: 0.7,
+	      swipe_min_touches: 1,
+	      swipe_max_touches: 1,
+	      drag_block_vertical: false,
+	                  
+	                  
+	      keyboardNavigation:"on",
+	      
+	      navigationHAlign:"center",
+	      navigationVAlign:"bottom",
+	      navigationHOffset:0,
+	      navigationVOffset:20,
+
+	      soloArrowLeftHalign:"left",
+	      soloArrowLeftValign:"center",
+	      soloArrowLeftHOffset:20,
+	      soloArrowLeftVOffset:0,
+
+	      soloArrowRightHalign:"right",
+	      soloArrowRightValign:"center",
+	      soloArrowRightHOffset:20,
+	      soloArrowRightVOffset:0,
+	          
+	      shadow:0,
+	      fullWidth:"on",
+	      fullScreen:"off",
+
+	      spinner:"spinner0",
+	      
+	      stopLoop:"off",
+	      stopAfterLoops:-1,
+	      stopAtSlide:-1,
+
+	      shuffle:"off",
+	      
+	      autoHeight:"off",           
+	      forceFullWidth:"off",           
+	                  
+	                  
+	                  
+	      hideThumbsOnMobile:"off",
+	      hideNavDelayOnMobile:1500,            
+	      hideBulletsOnMobile:"off",
+	      hideArrowsOnMobile:"off",
+	      hideThumbsUnderResolution:0,
+	      
+	      hideSliderAtLimit:0,
+	      hideCaptionAtLimit:0,
+	      hideAllCaptionAtLilmit:0,
+	      startWithSlide:0
+	    });       
+	  }); //ready
+	</script> 
+	<script src="/res/site/style-switcher/js/jquery_cookie.js"></script> 
+	<script src="/res/site/style-switcher/js/script.js"></script> 
+	<!-- Style Switcher Start -->
+	<div class="styleswitcher visible-lg visible-md">
+	  <div class="arrow-box"><a class="switch-button"><span class="fa fa-cogs fa-lg"></span></a> </div>
+	  <h4>Color Skins</h4>
+	  <ul class="color-scheme">
+	    <li><a href="#" data-rel="colors/color1.css" class="color1" title="color1"></a></li>
+	    <li><a href="#" data-rel="colors/color2.css" class="color2" title="color2"></a></li>
+	    <li><a href="#" data-rel="colors/color3.css" class="color3" title="color3"></a></li>
+	    <li><a href="#" data-rel="colors/color4.css" class="color4" title="color4"></a></li>
+	    <li><a href="#" data-rel="colors/color5.css" class="color5" title="color5"></a></li>
+	    <li class="nomargin"><a href="#" data-rel="colors/color6.css" class="color6" title="color6"></a></li>
+	    <li class="nomargin"><a href="#" data-rel="colors/color7.css" class="color7" title="color7"></a></li>
+	    <li class="nomargin"><a href="#" data-rel="colors/color8.css" class="color8" title="color8"></a></li>
+	    <li class="nomargin"><a href="#" data-rel="colors/color9.css" class="color9" title="color9"></a></li>
+	    <li class="nomargin"><a href="#" data-rel="colors/color10.css" class="color10" title="color10"></a></li>
+	  </ul>
+	  <h4>Layout</h4>
+	  <ul class="layouts">
+	    <li class="wide-layout"><a href="#" title="Wide">Wide</a></li>
+	    <li class="boxed-layout"><a href="#" title="Boxed">Boxed</a></li>
+	  </ul>
+	  <h4>Background Pattern</h4>
+	  <ul class="background-selector">
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt1.png" data-nr="0" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt2.png" data-nr="1" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt3.png" data-nr="2" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt4.png" data-nr="3" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt5.png" data-nr="4" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt6.png" data-nr="5" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt7.png" data-nr="6" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt8.png" data-nr="7" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt9.png" data-nr="8" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt10.png" data-nr="9" width="20" height="20"></li>
+	    <li class="nomargin"><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt11.jpg" data-nr="10" width="20" height="20"></li>
+	    <li class="nomargin"><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt12.jpg" data-nr="11" width="20" height="20"></li>
+	    <li class="nomargin"><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt13.jpg" data-nr="12" width="20" height="20"></li>
+	    <li class="nomargin"><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt14.jpg" data-nr="13" width="20" height="20"></li>
+	    <li class="nomargin"><img alt="" src="/res/site/style-switcher/backgrounds/patterns/pt15.jpg" data-nr="14" width="20" height="20"></li>
+	  </ul>
+	  <small>*only for boxed layout</small>
+	  <h4>Background Image</h4>
+	  <ul class="background-selector1">
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/images/img1-thumb.jpg" data-nr="0" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/images/img2-thumb.jpg" data-nr="1" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/images/img3-thumb.jpg" data-nr="2" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/images/img4-thumb.jpg" data-nr="3" width="20" height="20"></li>
+	    <li><img alt="" src="/res/site/style-switcher/backgrounds/images/img5-thumb.jpg" data-nr="4" width="20" height="20"></li>
+	  </ul>
+	  <small>*only for boxed layout</small> </div>
 	</body>
 </html>
